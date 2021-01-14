@@ -1,0 +1,104 @@
+@font-face {
+    font-family: 'Press Start 2P';
+    src: url('pressstart2p-regular-webfont.woff2') format('woff2'),
+         url('pressstart2p-regular-webfont.woff') format('woff');
+
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #18181B;
+}
+
+.container {
+    font-family: "Press Start 2P", Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    margin-top: 20px;
+    width: 428px;
+    height: 428px;
+    
+}
+
+article {
+    width: 408px;
+    height: 408px;
+    border: outset 2px groove;
+    display: flex;
+    flex-wrap: wrap;
+    word-wrap:break-word;
+    justify-content: center;  
+}
+
+
+span {
+    display:flex;
+    width: 49px;
+    height: 49px;
+    justify-content: center;
+    align-items:center;
+    background-color: rgb(196, 196, 196);
+    border: dashed 1px black;
+    font-size: 30px;
+}
+
+.blue {
+color: blue;
+
+}
+.green {
+color: green;
+}
+
+.red {
+color: rgb(255, 0, 0)
+}
+
+.color {
+    opacity: 0;
+    border: outset black 2px;
+    background-color: rgb(196, 196, 196);
+
+}
+.ghost {
+    border: outset black 2px;
+}
+
+.color:hover {
+    opacity: 1;
+    border: outset black 2px;
+    background-color: rgb(196, 196, 196);
+}
+
+.ghost:hover {
+
+    background-color: rgb(196, 196, 196);
+    border: outset black 2px;
+}
+
+div{
+    display: flex;
+    width: 47px;
+    height: 47px;
+    background-color: rgb(196, 196, 196);
+    border: outset black 7px;
+    justify-content: center;
+    align-items:center;
+    font-size: 30px;
+}
+
+img {
+    width: 30px;
+    height: 30px;
+}
+
