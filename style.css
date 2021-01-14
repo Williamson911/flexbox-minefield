@@ -30,16 +30,6 @@ body {
     
 }
 
-article {
-    width: 408px;
-    height: 408px;
-    border: outset 2px groove;
-    display: flex;
-    flex-wrap: wrap;
-    word-wrap:break-word;
-    justify-content: center;  
-}
-
 
 span {
     display:flex;
@@ -50,6 +40,16 @@ span {
     background-color: rgb(196, 196, 196);
     border: dashed 1px black;
     font-size: 30px;
+}
+
+.grid {
+    width: 408px;
+    height: 408px;
+    border: outset 2px groove;
+    display: flex;
+    flex-wrap: wrap;
+    word-wrap:break-word;
+    justify-content: center;  
 }
 
 .blue {
